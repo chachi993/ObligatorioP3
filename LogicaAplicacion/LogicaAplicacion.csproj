@@ -9,4 +9,8 @@
     <Folder Include="InterfacesCasosUso\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LogicaNegocio.csproj" />
+    <ProjectReference Include="..\LogicaAccesoDatos\LogicaAccesoDatos.csproj" />
+  </ItemGroup>
 </Project>
