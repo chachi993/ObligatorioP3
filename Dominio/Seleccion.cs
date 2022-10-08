@@ -21,5 +21,13 @@ namespace ObligatorioP3
         {
             throw new NotImplementedException();
         }
+        public void ValidarNombres()
+        {
+            if (string.IsNullOrEmpty(Nombre))
+            {
+                //throw new PaisException("el Pais debe tener un nombre valido")
+            }
+
+        }
     }
 }

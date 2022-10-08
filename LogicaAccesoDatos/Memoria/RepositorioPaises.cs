@@ -8,7 +8,6 @@ namespace LogicaAccesoDatos.Memoria
 {
     public class RepositorioPaises : IRepositorioPaises
     {
-
         public static List<Pais> paises { get; set; } = new List<Pais>();
         public static int UltimoId { get; set; }
         public void Add(Pais nuevo)

@@ -6,5 +6,6 @@ namespace LogicaNegocio.InterfacesRepositorios
 {
     interface IRepositorioPartido
     {
+        
     }
 }
