@@ -20,9 +20,24 @@ namespace LogicaNegocio
         public void Validar()
         {
             ValidarNombre();
+            ValidarCodigo();
         }
         public void ValidarNombre()
         {
+            if (string.IsNullOrEmpty(Nombre))
+            {
+                //throw new PaisException("el Pais debe tener un nombre valido")
+            }
+           
+        }
+
+        public void ValidarCodigo()
+        {
+            char first = Nombre[0];
+            if (CodigoISOAlfa3.Length != 3 && !Nombre.StartsWith(first))
+            {
+                //throw PaisException("El codigo no es valido")
+            }
         }
     }
 }

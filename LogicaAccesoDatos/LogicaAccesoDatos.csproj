@@ -5,11 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LogicaNegocio.csproj" />
     <ProjectReference Include="..\ObligatorioP3\LogicaNegocio.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="BaseDatos\" />
   </ItemGroup>
 
 </Project>
